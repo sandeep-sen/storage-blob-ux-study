@@ -73,15 +73,15 @@ body:
       value: |
         - Open an "video suggestion" issue on [github.com/azure/azure-sdk-blog](https://github.com/azure/azure-sdk-blog)
         - Add the appropriate language label(s). The language labels are: Java, JavaScript, Python, Go, C#, C++, Rust
-        - Under the milestone field, select the month you're targeting to publish the blog.
-        - The GitHub issue will be automatically assigned to the GitHub video project. 
-        - Video team will contact you and assign you task depending on the video style
-        - Progress will be tracked through labels
+        - Under the milestone field, select the month you're targeting to publish the video.
+        - The GitHub issue will be automatically assigned to the [Azure SDK Video Planner project](https://github.com/orgs/Azure/projects/606/). 
+        - Video team will contact you and assign you task depending on the video style.
+        - Progress will be tracked through labels.
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](.//.//README.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

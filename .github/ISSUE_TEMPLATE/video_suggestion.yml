@@ -12,7 +12,7 @@ body:
       value: |
         Thank you for contributing to the Azure SDK Videos! For videos, expect a review period of up to two weeks **after** issue creation for Video team to contact you.
         **Video Sytles:**
-        | Style        | Description|   Length   |  Orientation |
+| Style        | Description|   Length   |  Orientation |
         |--------------|------------|------------|--------------|
         | **Shorts** | Short videos for Tiktok, Reels, YT Shorts | < 60 seconds | portrait |
         | **Standard** | Standard YouTube videos | < 10 minutes | landscape |

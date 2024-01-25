@@ -1,0 +1,87 @@
+name: Video Suggestion
+description: Suggest a video for Azure SDK
+title: "Video: [style <short|standard|long>] <working title of video>"
+# labels: ["video suggestion"]
+# projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - sandeep-sen
+  # - hector-norza
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Azure SDK Videos! For videos, expect a review period of up to two weeks **after** issue creation for Video team to contact you.
+  - type: input
+    id: contact
+    attributes:
+      label: Primary Contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Video Format
+      description: What style of video you want to suggest?
+      options:
+        - Shorts
+        - Standard
+        - Long / Podcast
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    id: title
+    attributes:
+      label: Working Title
+      description: Working title for this video.
+      placeholder: Working title for this video.
+      value: "Working title for this video, formated as - Video: [style <short|standard|long>] <working title of video>"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief summary for the video in 150 words or less.
+      placeholder: Brief summary for the video in 150 words or less.
+      value: "This video will highlight feature x of service a on language i, targetting customer persona j"
+    validations:
+      required: true
+  - type: textarea
+    id: services
+    attributes:
+      label: Services Featured
+      description: Services which are going to be part of this video.
+      placeholder: Services which are going to be part of this video, as a comma separated list.
+      value: "Service A, Service B"
+    validations:
+      required: false
+  - type: textarea
+    id: languages
+    attributes:
+      label: Languages Featured
+      description: Languages which are going to be part of this video.
+      placeholder: Languages which are going to be part of this video, as a comma separated list.
+      value: ".NET, Java, Python, Javascript, Go, C++, C, Rust"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      label: Process
+      value: |
+        - Open an "video suggestion" issue on [github.com/azure/azure-sdk-blog](https://github.com/azure/azure-sdk-blog)
+        - Add the appropriate language label(s). The language labels are: Java, JavaScript, Python, Go, C#, C++, Rust
+        - Under the milestone field, select the month you're targeting to publish the blog.
+        - The GitHub issue will be automatically assigned to the GitHub video project. 
+        - Video team will contact you and assign you task depending on the video style
+        - Progress will be tracked through labels
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

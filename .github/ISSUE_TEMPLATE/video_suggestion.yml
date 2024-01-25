@@ -2,10 +2,10 @@ name: Video Suggestion
 description: Suggest a video for Azure SDK
 title: "Video: [style <short|standard|long>] <working title of video>"
 # labels: ["video suggestion"]
-# projects: ["octo-org/1", "octo-org/44"]
+# projects: ["Azure/projects/606"]
 assignees:
   - sandeep-sen
-  # - hector-norza
+  - hector-norza
 body:
   - type: markdown
     attributes:

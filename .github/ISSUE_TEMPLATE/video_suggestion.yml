@@ -15,9 +15,9 @@ body:
         **Video Sytles:**
         | Style        | Description|   Length   |  Orientation |
         |--------------|------------|------------|--------------|
-        | **Shorts** |Short videos for Tiktok, Reels, YT Shorts|< 60 seconds|portrait|
-        | **Standard** |Standard YouTube videos|< 10 minutes|landscape|
-        | **Long / Podcast** |Live podcast|>= 30 minutes|landscape|
+        | **Shorts** | Short videos for Tiktok, Reels, YT Shorts | < 60 seconds | portrait |
+        | **Standard** | Standard YouTube videos | < 10 minutes | landscape |
+        | **Long / Podcast** | Live podcast | >= 30 minutes |landscape |
   - type: input
     id: contact
     attributes:

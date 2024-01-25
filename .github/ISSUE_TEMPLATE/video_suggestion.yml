@@ -75,9 +75,10 @@ body:
         - Rust
         - Android
         - iOS
+        - Other
       default: 1
     validations:
-      required: false
+      required: true
   - type: markdown
     attributes:
       # label: Process

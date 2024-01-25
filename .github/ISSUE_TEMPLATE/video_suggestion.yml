@@ -58,13 +58,24 @@ body:
       value: "Service A, Service B"
     validations:
       required: false
-  - type: textarea
+  - type: dropdown
     id: languages
     attributes:
       label: Languages Featured
       description: Languages which are going to be part of this video.
-      placeholder: Languages which are going to be part of this video, as a comma separated list.
-      value: ".NET, Java, Python, Javascript, Go, C++, C, Rust"
+      multiple: true
+      options:
+        - .NET
+        - Java
+        - Python
+        - Javascript
+        - Go
+        - C++
+        - C
+        - Rust
+        - Android
+        - iOS
+      default: 1
     validations:
       required: false
   - type: markdown

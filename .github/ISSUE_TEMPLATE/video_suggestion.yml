@@ -14,7 +14,7 @@ body:
         
         **Video Sytles:**
         - **Shorts**
-          - short videos for Tiktok, Reels, YT Shorts (**length:** < 60 seconds, **orientation:** portrait)
+            - short videos for Tiktok, Reels, YT Shorts (**length:** < 60 seconds, **orientation:** portrait)
         - **Standard** - standard YouTube videos (**length:** < 10 minutes, **orientation:** landscape)
         - **Long / Podcast** - live podcast (**length:** >= 30 minutes, **orientation:** landscape)
   - type: input
